@@ -1,0 +1,67 @@
+      body {
+/*        background: #1A1A1A url(/img/background.jpg) center top fixed no-repeat;*/
+        background: #1A1A1A url(/img/7651154238_804ecda59b_c.png) center top fixed no-repeat;
+        /** The Photograph above comes from Nasa http://www.flickr.com/photos/nasacommons/7651154238/in/photostream/ **/
+        margin: 340px auto 40px;
+        padding: 0;
+        width: 100%;        
+      }
+      
+      header, section, footer {
+        background-color: white;
+        background-color: rgba(255,255,255,0.8); 
+        margin: 10px auto 0;
+        padding: 4px 16px;
+        min-width: 260px;
+        max-width: 612px;
+        width: 86%;
+      }
+      
+      h1, h2, h3, h4, h5, h6, p, li, a {
+        background-color: transparent;
+        color: #2F2F2F;
+        font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 1.5;
+      }
+      
+      h1, h2, h3, h4, h5, h6 {
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      
+      h1 {
+        font-size: 24px;
+      }
+        h1 span {
+          font-weight: 500;
+        }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      h3 {
+        font-size: 15px;
+        text-transform uppercase;
+      }
+
+      h4 {
+        font-size: 15px;
+      }
+
+      ul li {
+        list-style-type: square;
+      }
+
+
+@media only screen and (max-width: 479px){
+
+  body.front {
+    background-position: center -80px;
+    margin-top: 255px;
+  }
+
+
+}
