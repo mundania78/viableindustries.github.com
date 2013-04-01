@@ -1,8 +1,9 @@
       body {
 /*        background: #1A1A1A url(/img/background.jpg) center top fixed no-repeat;*/
-        background: #1A1A1A url(/img/7651154238_804ecda59b_c.png) center top fixed no-repeat;
-        /** The Photograph above comes from Nasa http://www.flickr.com/photos/nasacommons/7651154238/in/photostream/ **/
-        margin: 340px auto 40px;
+/*        background: #1A1A1A url(/img/7651154238_804ecda59b_c.png) center top fixed no-repeat;
+*/        /** The Photograph above comes from Nasa http://www.flickr.com/photos/nasacommons/7651154238/in/photostream/ **/
+        background-color: #1A1A1A;
+        margin: 10px 0 40px;
         padding: 0;
         width: 100%;        
       }
@@ -10,23 +11,47 @@
       header, section, footer {
         background-color: white;
         background-color: rgba(255,255,255,0.8); 
-        margin: 10px auto 0;
+        margin: 10px 0 0;
         padding: 4px 16px;
         min-width: 260px;
         max-width: 612px;
         width: 86%;
       }
+        .logo {
+          background-color: transparent;
+          margin: 0;
+          padding: 0;
+        }
+        .quote {
+          border-bottom: 10px solid rgb(0, 167, 255);
+          border-top: 10px solid rgb(0, 167, 255);
+        }
+        .copyright,
+        .copyright * {
+          background-color: transparent;
+          color: rgb(100,100,100);
+          font-size: 11px;
+        }
       
-      h1, h2, h3, h4, h5, h6, p, li, a {
+      h1, h2, h3, h4, h5, h6, p, li, blockquote {
         background-color: transparent;
         color: #2F2F2F;
-        font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+        font-family: Helvetica, Arial, sans-serif;
         font-size: 15px;
-        font-weight: normal;
+        font-weight: 100;
         line-height: 1.5;
       }
       
+      a {
+        background-color: transparent;
+        color: #2F2F2F;        
+      }
+        a img {
+          border: 0;
+        }
+      
       h1, h2, h3, h4, h5, h6 {
+        font-family: "proxima-nova", Helvetica, Arial, sans-serif;
         font-weight: bold;
         text-transform: uppercase;
       }
@@ -53,6 +78,20 @@
 
       ul li {
         list-style-type: square;
+      }
+      
+      blockquote,
+      .quote-attribution {
+        font-size: 22px;
+        margin: 0;
+        padding: 28px 13px 22px;
+      }
+      
+      .quote-attribution {
+        font-size: 14px;
+        font-style: italic;
+        padding: 0 13px 28px;
+        text-align: right;
       }
 
 
