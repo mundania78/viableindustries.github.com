@@ -22,10 +22,6 @@
           margin: 0;
           padding: 0;
         }
-        .quote {
-          border-bottom: 10px solid rgb(0, 167, 255);
-          border-top: 10px solid rgb(0, 167, 255);
-        }
         .copyright,
         .copyright * {
           background-color: transparent;
